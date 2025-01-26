@@ -70,7 +70,7 @@ def start_buttons(bot, update):
         pyrogram.types.InlineKeyboardButton("עדכונים", url="t.me/bot_sratim_sdarot"),
         pyrogram.types.InlineKeyboardButton("אודות 🤠", callback_data="about")
     ],[
-        pyrogram.types.InlineKeyboardButton("➕️ Add To Your Channel ➕️", url=f"http://t.me/{bot.username}?startchannel=true")
+        pyrogram.types.InlineKeyboardButton("➕️ Add To Your Channel ➕️", url=f"http://t.me/the_my_first_robot?startchannel=true")
     ]]
     return pyrogram.types.InlineKeyboardMarkup(buttons)
 
