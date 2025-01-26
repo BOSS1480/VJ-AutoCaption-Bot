@@ -67,16 +67,16 @@ def get_file_details(update: pyrogram.types.Message):
 def start_buttons(bot, update):
     bot = bot.get_me()
     buttons = [[
-        pyrogram.types.InlineKeyboardButton("Updates", url="t.me/VJ_Botz"),
-        pyrogram.types.InlineKeyboardButton("About 🤠", callback_data="about")
+        pyrogram.types.InlineKeyboardButton("עדכונים", url="t.me/bot_sratim_sdarot"),
+        pyrogram.types.InlineKeyboardButton("אודות 🤠", callback_data="about")
     ],[
-        pyrogram.types.InlineKeyboardButton("➕️ Add To Your Channel ➕️", url=f"http://t.me/{bot.username}?startchannel=true")
+        pyrogram.types.InlineKeyboardButton("➕️ הוסף אותי לערוץ ➕️", url=f"http://t.me/{bot.username}?startchannel=true")
     ]]
     return pyrogram.types.InlineKeyboardMarkup(buttons)
 
 def about_buttons(bot, update):
     buttons = [[
-        pyrogram.types.InlineKeyboardButton("🏠 Back To Home 🏠", callback_data="start")
+        pyrogram.types.InlineKeyboardButton("🏠 בית 🏠", callback_data="start")
     ]]
     return pyrogram.types.InlineKeyboardMarkup(buttons)
 
@@ -84,7 +84,3 @@ print("Telegram AutoCaption V1 Bot Start")
 print("Bot Created By @VJ_Botz")
 
 AutoCaptionBotV1.run()
-
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
