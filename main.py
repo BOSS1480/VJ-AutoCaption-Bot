@@ -1,12 +1,8 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
 import pyrogram, os, asyncio
 
-app_id = int(os.environ.get("app_id", ""))
-api_hash = os.environ.get("api_hash", "")
-bot_token = os.environ.get("bot_token", "")
+app_id = int(os.environ.get("app_id", "22292027"))
+api_hash = os.environ.get("api_hash", "1bcbc98cbe17731e64ded3af17d3a21b")
+bot_token = os.environ.get("bot_token", "7546061714:AAHjwaf4LH0iXDAKQ2YkD8_gDSE0vIvXjK8")
 custom_caption = os.environ.get("custom_caption", "`{file_name}`\n\n**Powered By - @VJ_Botz**") # Here You Can Give Anything, if You Want Real File Name Then Use {file_name}
 
 AutoCaptionBotV1 = pyrogram.Client(name="AutoCaptionBotV1", api_id=app_id, api_hash=api_hash, bot_token=bot_token)
